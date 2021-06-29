@@ -1,0 +1,13 @@
+/*.container {
+    display: flex;
+}*/
+
+
+.Enter_button {
+    font-family: 'Chathura', sans-serif;
+    color: white;
+    font-size: -webkit-xxx-large;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid black;
+    width: 30%;
+}

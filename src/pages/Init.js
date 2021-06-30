@@ -6,20 +6,19 @@ import { Link } from "react-router-dom";
 const Init = () => {
   return (
     <React.Fragment>
-      <div className="container-md">
-        <div>
-          <img  className="rounded float-left" src={Logo} alt="Logo" />
+      <div className="container">
+        <div className="Imglogo">
+          <img src={Logo} alt="Logo" />
         </div>
         <div className="ChangeButton">
-          <Link href="/kitchen" type="button" className="btn btn-dark btn-lg">
-            Cocina
-          </Link>
-          <br />
-          <Link href="/waiter" type="button" className="btn btn-dark btn-lg">
+          <Link to="/waiter" className="Button">
             Mesero
           </Link>
+          <Link to="/kitchen"  className="Button">
+            Cocina
+          </Link>
         </div>
-      </div>
+        </div>
     </React.Fragment>
   );
 };

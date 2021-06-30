@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Init from "../components/Init";
-import Kitchen from "../components/Kitchen";
-import Waiter from "../components/Waiter";
-import NotFound from '../components/NotFound';
+import Init from "../pages/Init";
+import Kitchen from "../pages/Kitchen";
+import Waiter from "../pages/Waiter";
+import Table from '../pages/Table';
+import NotFound from '../pages/NotFound';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route exact path="/" component={Init} />
         <Route exact path="/kitchen" component={Kitchen} />
         <Route exact path="/waiter" component={Waiter} />
+        <Route exact path="/table" component={Table} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

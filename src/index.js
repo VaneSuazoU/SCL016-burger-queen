@@ -1,13 +1,12 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
 import './global.css';
-import reportWebVitals from './reportWebVitals'; //para poder seguir trabajando sin conexion
+import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css'
 
+import App from './router/App';
 
-import Home from './pages/Home';
+const view = document.getElementById('root');
 
-const container = document.getElementById('root');
-
-ReactDOM.render(<Home />, container)
+ReactDOM.render(<App />, view) //(<Lo que quiero mostrar /> , Donde lo muestro)
 reportWebVitals();

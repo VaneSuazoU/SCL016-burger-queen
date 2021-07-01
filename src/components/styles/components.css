@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbarImg {
+  width: 15vw;
+}
+
+.tabView {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table {
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Chathura", sans-serif;
+  width: 20vw;
+  height: 15vh;
+  font-size: 5vw;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.clientName {
+  font-size: 8vw;
+}

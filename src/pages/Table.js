@@ -1,13 +1,17 @@
 import React from "react";
+import "./styles/pages.css";
+import Navbar from "../components/Navbar";
+import ClientName from "../components/ClientName";
+import MenusNav from "../components/MenusNav";
 
 const Table = () => {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="tablesview">
-            <h1>Hola!</h1>
-        </div>
-      </div>
+      <Navbar />
+      <main className="tableView">
+        <ClientName/>
+        <MenusNav/>        
+      </main>
     </React.Fragment>
   );
 };

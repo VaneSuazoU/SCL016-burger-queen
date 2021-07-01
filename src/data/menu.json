@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Café americano",
+    "price": "$1.000",
+    "type": "breakfast",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/caf%C3%A9-americano.jpg?alt=media&token=aa3a9beb-f1c1-453a-8d05-ff0d7c8ae500"
+  },
+  {
+    "id": "2",
+    "name": "Café con leche",
+    "price": "$1.500",
+    "type": "breakfast",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/cafe-leche.jpeg?alt=media&token=5a7d5197-d8bf-4677-8488-b4450daf7b1d"
+  },
+  {
+    "id": "3",
+    "name": "Sandwich de jamón y queso",
+    "price": "$2.500",
+    "type": "breakfast",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/jamon-queso.jfif?alt=media&token=a46e8a99-6a51-4c60-aa71-faa1c7281e67"
+  },
+  {
+    "id": "4",
+    "name": "Jugo de frutas natural",
+    "price": "$1.500",
+    "type": "breakfast",
+    "icon":"https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/jugo-natural.jfif?alt=media&token=1b64a806-e158-4cea-8dab-5f4986ef7363"
+  },
+  {
+    "id": "5",
+    "name": "Huevos fritos",
+    "price": "$2.500",
+    "type": "breakfast",
+    "icon":"https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/huevos-fritos.jpeg?alt=media&token=68e879b1-f068-447c-9141-b38af4981eba"
+  },
+  {
+    "id": "6",
+    "name": "Vacuno",
+    "price": "$3.500",
+    "type": "burger",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/vacuno.jfif?alt=media&token=cedcdcea-f0be-40c3-91c7-82150cbea91f"
+  },
+  {
+    "id": "7",
+    "name": "Pollo",
+    "price": "$3.000",
+    "type": "burger",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/pollo.jpg?alt=media&token=acf693de-4825-49da-948c-3dae257480cc"
+  },
+  {
+    "id": "8",
+    "name": "Soya",
+    "price": "$3.000",
+    "type": "burger",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/soya.jfif?alt=media&token=d48c9f15-3a6f-4f64-a40a-c3f90f2000aa"
+  },
+  {
+    "id": "9",
+    "name": "Lechuga",
+    "price": "$500",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/lechuga.jfif?alt=media&token=19045298-cc35-433b-b863-01236d1b36b2"
+  },
+  {
+    "id": "10",
+    "name": "Palta",
+    "price": "$1000",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/palta.jpg?alt=media&token=4d0af694-a7b3-4a35-87f9-b3841c9bfec9"
+  },
+  {
+    "id": "11",
+    "name": "Tomate",
+    "price": "$500",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/tomate.jpg?alt=media&token=114368d3-c4fc-4bd7-8c27-423119ed9f25"
+  },
+  {
+    "id": "12",
+    "name": "Pepinillo",
+    "price": "$300",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/pepinillo%C3%A7.jpeg?alt=media&token=c3dfe90b-de56-4b57-8c3b-c5461b92e203"
+  },
+  {
+    "id": "13",
+    "name": "Poroto Verde",
+    "price": "$500",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/poroto-verde.jfif?alt=media&token=a7db4f48-2fd3-4136-bc09-82a48ded1fab"
+  },
+  {
+    "id": "14",
+    "name": "Queso",
+    "price": "$700",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/queso.jfif?alt=media&token=3f8e340b-1088-4b29-bc9f-8eb2d2535bb0"
+  },
+  {
+    "id": "15",
+    "name": "Papas fritas",
+    "price": "$1000",
+    "type": "ingredients",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/papas-fritas.jpg?alt=media&token=61e34c03-344b-48fd-8b7d-f3fdac6cefb9"
+  },
+  {
+    "id": "16",
+    "name": "Aros de cebolla",
+    "price": "$1000",
+    "type": "side",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/aros-de-cebolla.jpg?alt=media&token=5258fa01-e2ac-4a96-b9d7-ad14e0e80e6a"
+  },
+  {
+    "id": "17",
+    "name": "Empanadas",
+    "price": "$1000",
+    "type": "side",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/empanadas.jpg?alt=media&token=8df45ef6-31c9-4aab-9e12-4b1c97af666d"
+  },
+  {
+    "id": "17",
+    "name": "Bebida pequeña",
+    "price": "$1000",
+    "type": "drink",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/peque%C3%B1o.jpg?alt=media&token=7054bad5-b1ef-403d-8293-d3b4b88d3b86"
+  },
+  {
+    "id": "18",
+    "name": "Bebida mediana",
+    "price": "$1500",
+    "type": "drink",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/mediano.jpg?alt=media&token=cf6772f3-eefd-4236-be63-fd38e41b4ed2"
+  },
+  {
+    "id": "19",
+    "name": "Bebida grande",
+    "price": "$2000",
+    "type": "drink",
+    "icon": "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ff405.appspot.com/o/grande.jpg?alt=media&token=ba4f5a98-2102-4356-a215-dd9acea74808"
+  }
+]

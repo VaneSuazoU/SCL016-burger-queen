@@ -1,13 +1,14 @@
 import React from "react";
+import './styles/pages.css';
 
 const Kitchen = () => {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="Kitchenview">
+      <main>
+        <section className="kitchenview">
             <h1>Hola!</h1>
-        </div>
-      </div>
+        </section>
+      </main>
     </React.Fragment>
   );
 };

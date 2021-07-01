@@ -1,24 +1,25 @@
 import React from "react";
 import Logo from "../images/logo.png";
-import "./styles/Init.css";
+import "./styles/pages.css";
 import { Link } from "react-router-dom";
 
 const Init = () => {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="Imglogo">
-          <img src={Logo} alt="Logo" />
-        </div>
-        <div className="ChangeButton">
-          <Link to="/waiter" className="Button">
+      <main>
+        <section className="imglogo">
+          <img src={Logo} alt="logo" />
+        </section>
+        <section className="changeButton">
+          <Link to="/waiter" className="button">
             Mesero
           </Link>
-          <Link to="/kitchen"  className="Button">
+          <br/>
+          <Link to="/kitchen"  className="button">
             Cocina
           </Link>
-        </div>
-        </div>
+        </section>
+        </main>
     </React.Fragment>
   );
 };

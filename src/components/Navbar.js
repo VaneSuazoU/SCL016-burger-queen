@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <nav className="navBar">
-          <Link className="navbarImg" to="/" ><img src={Back} alt="back" /></Link>
+          <Link to="/" ><img src={Back} alt="back" className="navImg"/></Link>
           <img className="navbarImg" src={Logo} alt="back" />
-          <Link className="navbarImg" to="/" ><img src={Notification} alt="back" /></Link> 
+          <Link to="/" ><img src={Notification} alt="back" className="navImg" /></Link> 
       </nav>
     </React.Fragment>
   );

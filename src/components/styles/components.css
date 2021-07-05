@@ -1,11 +1,14 @@
 .navBar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navbarImg {
   width: 15vw;
+}
+.navImg {
+  width: 8vw;
 }
 
 .tabView {
@@ -14,16 +17,30 @@
 }
 .table {
   border: 3px solid #ffffff;
-  box-sizing: border-box;
   color: #ffffff;
-  font-family: "Chathura", sans-serif;
   width: 20vw;
   height: 15vh;
-  font-size: 5vw;
+  font-size: 5em;
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
 .clientName {
-  font-size: 8vw;
+  font-size: 3em;
+  margin: unset;
+}
+.menuNav {
+  display: flex;
+}
+.menuButtons {
+  background: none;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-family: "Chathura", sans-serif;
+  font-size: 4em;
+  width: 25vw;
+  margin-right: 1rem;
+}
+.menuButtons:hover {
+  background: rgba(221, 40, 40, 0.6);
 }

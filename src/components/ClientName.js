@@ -5,7 +5,7 @@ const ClientName = () => {
   return (
     <React.Fragment>
       <section className="clientName">
-        <p>Nombre del cliente</p>
+        <h1 contentEditable="true">Nombre del cliente</h1>
       </section>
     </React.Fragment>
   );

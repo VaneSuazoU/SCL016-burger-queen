@@ -6,20 +6,19 @@ import { Link } from "react-router-dom";
 const Init = () => {
   return (
     <React.Fragment>
-      <main>
-        <section className="imglogo">
+      <main className="initView">
+        <section>
           <img src={Logo} alt="logo" />
         </section>
-        <section className="changeButton">
+        <section className="startButtons">
           <Link to="/waiter" className="button">
             Mesero
           </Link>
-          <br/>
-          <Link to="/kitchen"  className="button">
+          <Link to="/kitchen" className="button">
             Cocina
           </Link>
         </section>
-        </main>
+      </main>
     </React.Fragment>
   );
 };

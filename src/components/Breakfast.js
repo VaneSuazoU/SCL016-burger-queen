@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles/components.css";
+import "../data/menu.json";
 
-const Breakfast = () => {
+const Breakfast = (props) => {
   return (
     <React.Fragment>
       <section className="breakfastMenu">

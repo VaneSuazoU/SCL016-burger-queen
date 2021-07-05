@@ -1,36 +1,44 @@
-.errorView{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.errorView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.errorImg{
-    width: 50vw;
+.errorImg {
+  width: 50vw;
 }
 .title {
-    font-size: 10vw;
+  font-size: 10vw;
 }
-.changeButton {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    align-self: center;
-  }
-  .button {
-    background: rgba(0, 0, 0, 0.6);
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    color: #ffffff;
-    width: 30vw;
-    height: 10vh;
-    font-size: 4vw;
-    text-decoration-line: none;
-    display: flex;
-    justify-content: center;
-  }
-  .waiterView {
-    display: flex;
-    flex-wrap: wrap;
+
+.initView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tableView{
-  display: block;
+.startButtons {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.button {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  color: #ffffff;
+  width: 30vw;
+  height: 10vh;
+  font-size: 4em;
+  text-decoration-line: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.waiterView {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tableView {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

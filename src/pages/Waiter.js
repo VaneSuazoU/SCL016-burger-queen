@@ -6,10 +6,8 @@ import "./styles/pages.css";
 const Waiter = () => {
   return (
     <React.Fragment>
-        <Navbar />
-        <section className="Waiterview">
-          <Tab />
-        </section>
+      <Navbar />
+      <Tab />
     </React.Fragment>
   );
 };

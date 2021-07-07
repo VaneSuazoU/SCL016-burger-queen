@@ -14,6 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 12%;
 }
 .startButtons {
   display: flex;
@@ -41,4 +42,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

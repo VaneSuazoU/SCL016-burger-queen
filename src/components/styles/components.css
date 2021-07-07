@@ -1,23 +1,26 @@
-.navBar {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbarImg {
-  width: 15vw;
+.nav__img {
+  width: 13vw;
 }
-.navImg {
-  width: 8vw;
+
+.nav__icon {
+  font-size: 4em;
+  color: white;
 }
 
 .tabView {
   display: flex;
   flex-wrap: wrap;
 }
+
 .table {
-  border: 3px solid #ffffff;
-  color: #ffffff;
+  border: 3px solid white;
+  color:white;
   width: 20vw;
   height: 15vh;
   font-size: 5em;
@@ -25,22 +28,45 @@
   display: flex;
   justify-content: center;
 }
-.clientName {
-  font-size: 3em;
-  margin: unset;
+
+.client {
+  padding:6vh 0;
+  width: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.client__name {
+  font-size: 4em;
+  }
+
+.client__enter {
+  font-size: 1em;
+  width: 20vw;
+  height: 5vh;
+}
+.client__save-icon {
+  font-size: 2em;
+  color: white;
+  background: none;
+  border: none;
+}
+
 .menuNav {
   display: flex;
 }
+
 .menuButtons {
   background: none;
-  border: 3px solid #ffffff;
-  color: #ffffff;
+  border: 3px solid white;
+  color: white;
   font-family: "Chathura", sans-serif;
   font-size: 4em;
   width: 25vw;
   margin-right: 1rem;
 }
+
 .menuButtons:hover {
   background: rgba(221, 40, 40, 0.6);
 }

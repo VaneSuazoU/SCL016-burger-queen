@@ -8,11 +8,13 @@ import Breakfast from '../components/Breakfast';
 const Table = () => {
   return (
     <React.Fragment>
+      <main className="container">
       <Navbar />
-      <main className="tableView">
+      <section className="tableView">
         <ClientName />
         <MenusNav />
         <Breakfast/>
+      </section>
       </main>
     </React.Fragment>
   );

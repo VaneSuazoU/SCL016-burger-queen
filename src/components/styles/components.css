@@ -71,3 +71,7 @@
 .menuButtons:hover {
   background: rgba(221, 40, 40, 0.6);
 }
+
+.commandMenu {
+  background-color: grey;
+}

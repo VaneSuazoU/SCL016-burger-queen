@@ -7,7 +7,6 @@ import Table from "../pages/Table";
 import NotFound from "../pages/NotFound";
 import productsMenu from '../data/menu.json';
 
-
 const App = () => {
   return (
     <BrowserRouter>

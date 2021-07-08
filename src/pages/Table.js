@@ -10,6 +10,10 @@ import Command from "../components/Command";
 const Table = ({ productsMenu }) => {
   const [command, changeCommand] = useState([]);
 
+  const addProducts = (idProduct, nombre) =>{
+    console.log(idProduct,nombre);
+  }
+
   return (
     <React.Fragment>
       <main className="container">
@@ -17,7 +21,7 @@ const Table = ({ productsMenu }) => {
         <section className="tableView">
           <ClientName />
           <MenusNav />
-          <Menu productsMenu={productsMenu} />
+          <Menu productsMenu={productsMenu} addProducts={addProducts} />
           <Command command={command} />
         </section>
       </main>

@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav__img {
@@ -14,14 +14,16 @@
 }
 
 .tabView {
+  padding: 2em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .table {
-  border: 3px solid white;
+  border: 2px solid white;
   color:white;
-  width: 20vw;
+  width: 19vw;
   height: 15vh;
   font-size: 5em;
   text-decoration: none;
@@ -30,23 +32,22 @@
 }
 
 .client {
-  padding:6vh 0;
   width: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.client__name {
+.clientName {
   font-size: 4em;
   }
 
-.client__enter {
+.clientEnter {
   font-size: 1em;
   width: 20vw;
   height: 5vh;
 }
-.client__save-icon {
+.clientSaveicon {
   font-size: 2em;
   color: white;
   background: none;

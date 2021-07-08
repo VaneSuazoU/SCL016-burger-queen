@@ -3,9 +3,10 @@ import "./styles/pages.css";
 import Navbar from "../components/Navbar";
 import ClientName from "../components/ClientName";
 import MenusNav from "../components/MenusNav";
-import Breakfast from '../components/Breakfast';
+import Menu from '../components/Menu';
 
-const Table = () => {
+//TIENDA
+const Table = ({productsMenu}) => {
   return (
     <React.Fragment>
       <main className="container">
@@ -13,7 +14,8 @@ const Table = () => {
       <section className="tableView">
         <ClientName />
         <MenusNav />
-        <Breakfast/>
+        <Menu productsMenu={productsMenu}/>
+        
       </section>
       </main>
     </React.Fragment>

@@ -7,9 +7,15 @@ const ClientName = () => {
   return (
     <React.Fragment>
       <section className="client">
-        <h1 className="client__name">Nombre del cliente</h1>
-        <input className="client__enter" type="text" placeholder="Ingresar aquí"></input>
-        <button onClick="" className="client__save-icon"><FontAwesomeIcon icon={faSave} /></button>
+        <h1 className="clientName">Nombre del cliente</h1>
+        <input
+          className="clientEnter"
+          type="text"
+          placeholder="Ingresar aquí"
+        ></input>
+        <button onClick="" className="clientSaveicon">
+          <FontAwesomeIcon icon={faSave} />
+        </button>
       </section>
     </React.Fragment>
   );
